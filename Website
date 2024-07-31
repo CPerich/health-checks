@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Fútbol - Nombre del Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery div {
+            flex: 1 1 calc(33.333% - 10px);
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nombre del Club de Fútbol</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#informacion">Información del Club</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="inicio">
+        <h2>Bienvenidos a Nuestro Club</h2>
+        <p>Bienvenidos a la página oficial del Nombre del Club de Fútbol. Aquí encontrarás toda la información sobre nuestro equipo, noticias, eventos y mucho más.</p>
+    </section>
+    <section id="informacion">
+        <h2>Información del Club</h2>
+        <p>El Nombre del Club de Fútbol fue fundado en el año XXXX y desde entonces ha sido un referente en la liga local. Nuestro objetivo es promover el deporte y los valores de trabajo en equipo, respeto y disciplina.</p>
+    </section>
+    <section id="noticias">
+        <h2>Noticias</h2>
+        <article>
+            <h3>Último Partido</h3>
+            <p>El pasado fin de semana, nuestro equipo ganó 3-1 contra el equipo rival. Fue un partido emocionante donde nuestros jugadores demostraron su gran habilidad y compromiso.</p>
+        </article>
+        <article>
+            <h3>Nueva Incorporación</h3>
+            <p>Nos complace anunciar la incorporación de un nuevo jugador a nuestro equipo. Juan Pérez, un delantero con gran potencial, se une a nuestras filas para la próxima temporada.</p>
+        </article>
+    </section>
+    <section id="galeria">
+        <h2>Galería de Fotos</h2>
+        <div class="gallery">
+            <div><img src="foto1.jpg" alt="Foto del equipo 1"></div>
+            <div><img src="foto2.jpg" alt="Foto del equipo 2"></div>
+            <div><img src="foto3.jpg" alt="Foto del equipo 3"></div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto con nosotros, puedes enviarnos un correo a <a href="mailto:info@nombreclubdefutbol.com">info@nombreclubdefutbol.com</a> o seguirnos en nuestras redes sociales.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nombre del Club de Fútbol. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
